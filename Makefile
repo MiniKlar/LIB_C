@@ -29,6 +29,7 @@ SRC =  ./convert/ft_atoi.c \
 	./put/ft_putchar_fd.c \
 	./put/ft_putendl_fd.c \
 	./put/ft_puthexa_lower.c \
+	./put/ft_puthexa_ptr.c \
 	./put/ft_puthexa_upper.c \
 	./put/ft_putnbr_fd.c \
 	./put/ft_putstr_fd.c \
