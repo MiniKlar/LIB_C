@@ -6,7 +6,7 @@
 /*   By: lomont <lomont@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 22:57:19 by lomont            #+#    #+#             */
-/*   Updated: 2025/01/28 05:03:50 by lomont           ###   ########.fr       */
+/*   Updated: 2025/01/30 17:49:48 by lomont           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include <stdarg.h>
-#include <stdbool.h>
+# include <stdbool.h>
 
 typedef struct s_list
 {
@@ -61,6 +61,7 @@ char		*ft_itoa(int n);
 int			ft_tolower(int c);
 int			ft_toupper(int c);
 int			ft_atoi(const char *str);
+long		ft_atol(const char *str);
 
 // STR FUNCTIONS
 
