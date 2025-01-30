@@ -2,7 +2,6 @@ NAME = LIB_C.a
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 SRC =  ./convert/ft_atoi.c \
-	./convert/ft_atol \
 	./convert/ft_atol.c \
 	./convert/ft_itoa.c \
 	./convert/ft_tolower.c \
