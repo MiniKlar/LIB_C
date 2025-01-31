@@ -6,7 +6,7 @@
 /*   By: lomont <lomont@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 17:48:02 by lomont            #+#    #+#             */
-/*   Updated: 2025/01/30 18:16:37 by lomont           ###   ########.fr       */
+/*   Updated: 2025/01/31 02:12:07 by lomont           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 long	ft_atol(const char *str)
 {
 	long	nb;
-	long	sign;
+	int		sign;
 	size_t	i;
 
 	i = 0;
