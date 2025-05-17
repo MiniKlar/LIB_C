@@ -6,7 +6,7 @@
 /*   By: lomont <lomont@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 22:57:19 by lomont            #+#    #+#             */
-/*   Updated: 2025/01/30 17:49:48 by lomont           ###   ########.fr       */
+/*   Updated: 2025/05/17 11:10:02 by lomont           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,6 +96,10 @@ t_list		*ft_lstlast(t_list *lst);
 t_list		*ft_lstnew(void *content);
 t_list		*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
+// FREE FUNCTIONS
+
+void		free_tab(char **tab);
+
 // GET_NEXT_LINE
 
 # ifndef BUFFER_SIZE
@@ -106,6 +110,7 @@ char		*get_next_line(int fd);
 
 // PRINTF
 
+void		print_tab(char **tab);
 int			ft_print_nbr(int n);
 int			ft_print_str(char *s);
 int			ft_print_char(char c);

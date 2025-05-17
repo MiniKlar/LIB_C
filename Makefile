@@ -57,6 +57,8 @@ SRC =  ./convert/ft_atoi.c \
 	./struct/ft_lstclear.c \
 	./struct/ft_lstiter.c \
 	./struct/ft_lstmap.c \
+	./free/free_tab.c \
+	./print/ft_print_tab.c \
 
 OBJ = $(SRC:.c=.o)
 
